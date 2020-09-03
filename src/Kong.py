@@ -1,8 +1,8 @@
 import pygame
 from src.Config import Config
 
-class Kong:
 
+class Kong:
     def __init__(self, screen, x, y):
         self.pos_x = x
         self.pos_y = y
@@ -16,7 +16,6 @@ class Kong:
         kong_rect = kong_surface.get_rect().move(self.pos_x, self.pos_y)
 
         return kong_surface, kong_rect
-
 
     def move(self, x, y):
         self.pos_x = x
