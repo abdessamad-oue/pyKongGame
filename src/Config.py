@@ -1,18 +1,21 @@
 Config = {
     'game': {
         'caption': 'Kong',
-        'height': 300,
-        'width': 300,
+        'height': 512,
+        'width': 512,
         'fps': 45,
         'bumper_size': 30,
-        'background': './assets/background.jpg'
+        'background': './assets/bg_grass.png'
+    },
+    'banana': {
+        'tile': './assets/banana.png',
     },
     'kong': {
         'left': './assets/kong_left.png',
         'right': './assets/kong_right.png',
         'up' : './assets/kong_up.png',
         'down': './assets/kong_down.png',
-        'speed': 20
+        'speed': 40
     },
     'colors': {
         'white': (255, 255, 255),

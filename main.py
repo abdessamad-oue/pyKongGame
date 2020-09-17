@@ -1,5 +1,4 @@
 import pygame
-
 from src.Game import Game
 from src.Config import Config
 

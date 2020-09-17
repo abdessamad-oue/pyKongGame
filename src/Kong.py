@@ -12,7 +12,7 @@ class Kong:
 
         tile = Config['kong'][direction]
 
-        kong_surface = pygame.image.load(tile)
+        kong_surface = pygame.transform.scale2x(pygame.image.load(tile))
         kong_rect = kong_surface.get_rect().move(self.pos_x, self.pos_y)
 
         return kong_surface, kong_rect
